@@ -1,0 +1,44 @@
+.main1 {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.main-img {
+  max-width: 35%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.main-h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.main-p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.main-p2 {
+  margin-bottom: 20px;
+}
+
+.main-p3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.main-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

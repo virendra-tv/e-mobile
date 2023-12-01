@@ -1,0 +1,85 @@
+.Header {
+  display: grid;
+  grid-template-areas: "logo nav";
+  background-color: #007bff;
+  color: #fff;
+  height: 40px;
+}
+
+.Nav {
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 35px;
+  width: auto;
+}
+
+.Nav a {
+  color: white; /* Link text color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Header.css */
+
+.Header {
+  background-color: #333; /* Adjust the background color as needed */
+  color: white; /* Text color */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px; /* Adjust the logo size */
+}
+
+.Nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.Nav a {
+  color: white; /* Link text color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Nav a:hover {
+  text-decoration: underline;
+}
+
+.cart-container {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: white; /* Color of the cart items count */
+}
+
+button {
+  background-color: #4caf50; /* Green color, you can change it */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover, you can change it */
+}
+
+.phone-div {
+  display: flex;
+  align-items: center;
+}
+.phone-name {
+  font-family: emoji;
+  font-size: 30px;
+}
